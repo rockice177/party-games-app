@@ -1,0 +1,38 @@
+{
+  "name": "party-games-app",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A fun party games app built with React - works on iOS via PWA or native wrapper",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "party",
+    "games",
+    "social",
+    "react",
+    "mobile",
+    "pwa",
+    "word-chain",
+    "trivia"
+  ],
+  "author": "Party Games Team",
+  "license": "MIT",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "zustand": "^4.5.2"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "@vitejs/plugin-react": "^4.3.1",
+    "vite": "^5.4.8"
+  }
+}

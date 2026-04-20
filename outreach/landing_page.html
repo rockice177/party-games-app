@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Party Games - iOS Word Chain App</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: 'Segoe UI', Tahoma, sans-serif; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; min-height: 100vh; }
+    .container { max-width: 800px; margin: 0 auto; padding: 2rem; }
+    header { text-align: center; padding: 3rem 0; border-bottom: 2px solid rgba(255,255,255,0.2); margin-bottom: 2rem; }
+    h1 { font-size: 3rem; margin-bottom: 1rem; }
+    .tagline { font-size: 1.4rem; opacity: 0.9; }
+    .demo-box { background: rgba(255,255,255,0.95); border-radius: 20px; padding: 3rem; margin: 2rem 0; text-align: center; box-shadow: 0 10px 40px rgba(0,0,0,0.2); }
+    .demo-box h2 { color: #667eea; font-size: 2rem; margin-bottom: 1rem; }
+    .app-preview { background: white; border-radius: 15px; padding: 2rem; margin: 1rem 0; text-align: left; }
+    .features-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 2rem 0; }
+    .feature { background: rgba(102,126,234,0.1); padding: 1.5rem; border-radius: 15px; text-align: center; }
+    .feature-icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
+    .cta-buttons { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 2rem 0; }
+    .btn { padding: 1.5rem; border: none; border-radius: 12px; font-size: 1.2rem; font-weight: bold; cursor: pointer; text-align: center; transition: all 0.3s ease; }
+    .btn-primary { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; }
+    .btn-secondary { background: rgba(255,255,255,0.95); color: #667eea; }
+    .btn:hover { transform: translateY(-3px); box-shadow: 0 10px 20px rgba(0,0,0,0.2); }
+    footer { text-align: center; padding: 2rem; border-top: 2px solid rgba(255,255,255,0.2); margin-top: 3rem; opacity: 0.9; }
+    .stats { display: flex; justify-content: space-around; margin: 2rem 0; padding: 1.5rem; background: rgba(255,255,255,0.1); border-radius: 15px; }
+    .stat h3 { font-size: 2.5rem; }
+    .badge { background: rgba(255,215,0,0.8); padding: 0.5rem 1rem; border-radius: 20px; font-size: 0.9rem; display: inline-block; margin: 1rem 0; }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>🎉 Party Games</h1>
+      <p class="tagline">Build Chains. Win Together.</p>
+    </header>
+
+    <div class="demo-box">
+      <h2>🚀 Early Beta Access - Free!</h2>
+      <p>Get 60-day premium subscription + exclusive "Early Adopter" badge</p>
+      
+      <div class="app-preview">
+        <h3>Gameplay Preview</h3>
+        <p>Built with React • iOS Compatible PWA • Works Offline</p>
+        <p style="margin-top: 1rem; font-size: 0.9rem;">Demo link: <a href="http://localhost:3002/" style="color: #667eea;">http://localhost:3002/</a></p>
+      </div>
+
+      <div class="features-grid">
+        <div class="feature">
+          <div class="feature-icon">🔗</div>
+          <h4>Viral Word Chains</h4>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">🧠</div>
+          <h4>Trivia Challenges</h4>
+        </div>
+        <div class="feature">
+          <div class="feature-icon">👥</div>
+          <h4>Multiplayer Support</h4>
+        </div>
+      </div>
+
+      <div class="stats">
+        <div class="stat"><h3>50K+</h3><p>Downloads Target</p></div>
+        <div class="stat"><h3>25%</h3><p>D7 Retention</p></div>
+        <div class="stat"><h3>4.2★</h3><p>App Store Rating</p></div>
+      </div>
+
+      <div class="badge">🔥 Beta Access Available Now</div>
+
+      <div class="cta-buttons">
+        <button class="btn btn-primary" onclick="alert('Beta access will be sent via email!')">Get Beta Access</button>
+        <button class="btn btn-secondary" onclick="window.open('mailto:contact@partygames-app.com')">Contact for Demo</button>
+      </div>
+    </div>
+
+    <footer>
+      <p>© 2026 Party Games | Built with React • iOS PWA Compatible</p>
+      <p style="margin-top: 1rem; font-size: 0.9rem;">Press Release: /outreach/influencer_contacts.md</p>
+    </footer>
+  </div>
+</body>
+</html>
