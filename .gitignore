@@ -4,10 +4,21 @@ yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
+*.log
 
+# Dependencies (excluded from git for lighter repo)
 node_modules/
+npm-cache/
+yarn-cache/
+pnpm-cache/
+.npm/
+.yarn/
+
+# Development build artifacts (should NOT be in production deploy):
 dist/
 dist-ssr/
+.env
+.env.local
 *.local
 
 # Editor directories and files
